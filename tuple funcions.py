@@ -1,0 +1,8 @@
+t=(10,20,30,40,50,50)
+print(type(t))
+s=sum(t)
+maximum=max(t)
+minimum=min(t)
+c=t.count(50)
+i=t.index(20)
+print(s,maximum,minimum,c,i)
